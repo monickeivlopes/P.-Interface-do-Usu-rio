@@ -1,0 +1,11 @@
+.container {
+    background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+}
+
+.container.active {
+    background-color: darkblue;
+    color: white;
+}
+
