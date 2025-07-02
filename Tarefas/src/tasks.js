@@ -1,5 +1,5 @@
 export const tasks = [
-  { id: 1, title: "Estudar React", completed: false },
-  { id: 2, title: "Fazer exercícios de JavaScript", completed: false },
-  { id: 3, title: "Prova de Iuri Redes", completed: false }
+  { id: 1, title: "Estudar React", status: "pendente" },
+  { id: 2, title: "Ler um livro", status: "realizada" },
+  { id: 3, title: "Organizar a mesa", status: "nao_realizada" },
 ];
