@@ -1,0 +1,38 @@
+.table-name{
+    border: 3px solid red;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.table-username{
+    border: 3px solid purple;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.table-cidade{
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.button-cidade{
+    
+    background-color: rgb(74, 145, 202);
+}
+
+.button-username{
+    background-color: plum;
+}
+
+.button-name{
+    background-color: rgb(248, 103, 103);
+}
+
+.table{
+    display: flex;
+}
+
+.data-table{
+    align-items: center;
+}
