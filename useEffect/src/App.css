@@ -1,0 +1,39 @@
+body.modo-claro {
+  background-color: white;
+  color: black;
+}
+
+body.modo-escuro {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.caixa-texto {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.caixa-texto:focus {
+  box-shadow: 0 0 5px #6BCB77;
+}
+
+
+.app-centralizado {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  min-height: 100vh;         
+  background-color: #f0f4fa; 
+}
